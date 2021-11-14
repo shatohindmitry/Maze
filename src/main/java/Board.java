@@ -29,7 +29,7 @@ public class Board extends JPanel implements ActionListener {
 
         addKeyListener(new Al());
         setFocusable(true);
-        timer = new Timer(25, this);
+        timer = new Timer(140, this);
         timer.start();
     }
 
